@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 
 function App() {
@@ -13,10 +11,10 @@ function App() {
           count is {count}
         </button>
 
-        <p class='mb-3 text-gray-500 dark:text-gray-400'>
+        <p className='mb-3 text-gray-500 dark:text-gray-400'>
           Basic react app installation using vite
         </p>
-        <p class='text-gray-500 dark:text-gray-400'>
+        <p className='text-gray-500 dark:text-gray-400'>
           With a quick add on of tailwind for some easy css
         </p>
       </div>
